@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Requirement 18 and Field Sets Edit</title>
+    <style>
+        fieldset{
+            background-color: aqua;
+            width: 450px;
+            height: 350px;
+        }
+    </style> 
+    <script>
+        function personal()
+        {
+              fieldSetone=document.getElementById('fieldone');
+              fieldSet2=document.getElementById('fieldtwo');
+              fieldSetone.style.opacity= "0";
+            //   fieldSetone.style.height= "0";
+              fieldSet2.style.opacity= "1";
+        }
+        function contact()
+        {
+              fieldSet2=document.getElementById('fieldtwo');
+              fieldSet3=document.getElementById('fieldThree');
+              fieldSet2.style.opacity= "0";
+            //   fieldSet2.style.height= "0";
+              fieldSet3.style.opacity= "1";
+         
+        }
+        function edu()
+        {
+              fieldSet3=document.getElementById('fieldThree');
+              fieldSet4=document.getElementById('fieldFour');
+              fieldSet3.style.opacity="0";
+            //   fieldSet3.style.height="0";
+              fieldSet4.style.opacity= "1";
+        }
+        function experiance()
+        {
+              fieldSet4=document.getElementById('fieldFour');
+              fieldSetone.style.opacity= "1";
+              fieldSet4.style.opacity= "0";
+            //   fieldSet4.style.height= "0";
+        }
+    </script>
+</head>
+<body>
+    <main>
+        <form action="">
+            <fieldset id="fieldone">
+                <legend > Personal Info</legend> <marquee behavior="" direction=""> Enter Personal Info </marquee>
+                <label for=""> First Name:</label>
+                <input type="text" id="fn" > <br><br>
+                <label for=""> Middle Name:</label>
+                <input type="text" id="mn"> <br><br>
+                <label for=""> Last Name:</label>
+                <input type="text" id="ln"> <br><br>
+                <label for=""> DOB:</label>
+                <input type="date" id="dat"> <br><br>
+                <label for=""> Gender: </label>
+                <input type="radio" name="Gender"> Male
+                <input type="radio" name="Gender"> FeMale
+                <input type="radio" name="Gender"> Other <br><br>
+                <input type="button" value="save" onclick="personal()">
+            </fieldset> <br><br>
+           <fieldset id="fieldtwo" style="opacity: 0;">
+            <legend> Contact Info</legend> <marquee behavior="" direction="right"> Enter Contact Details </marquee>
+                <label for="">Phone Number:</label>
+                <input type="text" id="pn"> <br><br>
+                <label for="">Email:</label>
+                <input type="text" id="email"> <br><br>
+                <label for="">Address</label>
+                <textarea name=""  cols="30" rows="10" id="add"></textarea> <br><br>
+                <input type="button" value="save" onclick="contact()">
+           </fieldset> <br><br>
+           <fieldset id="fieldThree" style="opacity: 0;"> 
+            <legend> Education Info</legend> <marquee behavior="" direction=""> Enter Education Details </marquee>
+            <label for=""> Student Name:</label>
+            <input type="text" id="sn"> <br><br>
+            <label for=""> Course Name:</label>
+            <select name="" id="cn">
+                <option value=""></option>
+                <option value="">B-Tech/BE</option>
+                <option value="">BA</option>
+                <option value="">BCA</option>
+                <option value="">BCom</option>
+                <option value=""> Diploma</option>
+            </select><br><br>
+            <label for=""> Department Name:</label> 
+            <select name="" id="dn">
+                <option value=""></option>
+                <option value="">CSE</option>
+                <option value="">ECE</option>
+                <option value="">Mech</option>
+                <option value="">Civil</option>
+                <option value="">EEE</option>
+            </select> <br><br>
+            <label for=""> Passed Out:</label>
+            <select name="" id="po">
+                <option value=""></option>
+                <option value="">2019</option>
+                <option value="">2020</option>
+                <option value="">2021</option>
+                <option value="">2022</option>
+                <option value="">2023</option>
+            </select> <br><br>
+            <label for=""> Marks Optained :</label>
+            <select name="" >
+                <option value="">Persent %</option>
+                <option value="">CGPA</option>
+                <input type="text" id="mo">
+            </select> <br><br>
+            <input type="button" value="save" onclick="edu()">
+        </fieldset> <br><br>
+        <fieldset id="fieldFour" style="opacity: 0;">
+            <legend>Experiance</legend>
+            <marquee behavior="" direction="right"> Have you Any Working Expirence </marquee>
+            <label for=""> Candidate Name:</label>
+            <input type="text" id="cdn"> <br><br>
+            <label for=""> Years of Expirience:</label>
+            <input type="text"> <br><br>
+             <label for=""> Current Working : </label>
+             <input type="radio" name="Current Working"> Yes
+             <input type="radio" name="Current Working"> No <br><br>
+            <label for=""> Current Company Name:</label>
+            <input type="text" id="ccn"> <br><br>
+            <label for=""> Pervious/Expirence Company Name:</label>
+            <input type="text" id="pcn"> <br><br>
+            <label for="">Expected Salary :</label>
+            <input type="text" id="es"> <br><br>
+            <label for="">Notice Period :</label>
+            <input type="text" id="np"> <br><br>
+            <input type="button" value="save" onclick="experiance()">
+        </fieldset> <br><br>
+        </form>
+    </main>
+</body>
+</html>

@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <style>
+        main
+        {
+            background-color:rgb(146, 143, 143);
+            height:92vh;
+            width: 100%;
+            display: flex;
+            color: beige;
+            font-size: medium;
+            text-align: center;
+        } 
+      .content
+        {
+            width: 30%;
+            height: 100%;
+            background-color: rgb(139, 134, 134);
+            align-items: center;
+            color: beige;
+        }
+        nav
+        {
+            width: 100%;
+            height: 100%;
+            background-color: rgb(199, 197, 197);
+            text-align: center;
+            color: beige;
+            font-size: 25px;
+            align-items: center;
+            justify-content: space-around;
+            list-style: none;
+        }
+       a{
+         text-decoration: none;
+        }
+        .profile
+        {
+            width: 100px;
+            height: 100px;
+            border-radius: 50px;
+        }
+        .pro
+        {
+            color: transparent;
+        }
+        .pro:hover
+        {
+            color: rgb(177, 16, 16);
+        }
+        .portfolio
+        {
+            /* background-image: url(./aboutback.jpg); */
+            width: 70%;
+            height: 100%;
+            text-align: center;
+            font-size: 20px;
+            color: rgb(7, 7, 7);
+            font-family:Georgia, 'Times New Roman', Times, serif;
+        }  
+        .bottom{
+            text-align: left;
+            color: black;
+        }
+        .bottom:hover{
+            color: blueviolet;
+        }
+        .logo{
+            height: 150px;
+            width: 150px;
+            border-radius: 70px;
+        } 
+        .certificate{
+            display: flex;
+            justify-content: space-around;
+            color: rgb(228, 227, 225);
+        } 
+        .cerview{
+            width: 150px;
+            height: 50px;
+            border-radius: 25px;
+            font-size: 25px;
+            background-color: rgb(189, 195, 196);
+            color: blue;
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }  
+        .primg{
+            width: 650px;
+            height: 62px;
+            align-content: center;
+            margin-left: 4%;
+            border-radius: 20px;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <div class="content">
+            <nav> <br>
+                 <img src="./20GACSD007-Vidya T.C.jpg" alt="" height="25%" width="25%" class="profile">
+                 <p><h1> PROFILE</h1></p> 
+                 <div class="pro">
+                 <li > <a href="./home.html"> HOME</a></li> <br><br>
+                 <li> <a href="./aboutme.html"> ABOUT ME</a></li> <br><br>
+                 <li> <a href="./education.html"> MY EDUCATION</a></li> <br><br>
+                 <li> <a href="./project.html"> MY PortFolio</a></li> <br><br>
+                 <li> <a href="./contactme.html"> CONTACT ME</a></li>
+                </div>
+            </nav>
+        </div>
+        <div class="portfolio">
+           <header class="top"> 
+                <p> RECENT WEB SITES PAGES DESIGNED </p> 
+                <img src="./download (1).jpg" alt="" class="logo">
+                <div class="certificate">
+                    <footer class="cer1">
+                    <h3>  BIO METRIC</h3> 
+                    <a href="./requirement09.html"> <input type="button" value="VIEW" class="cerview"></a>
+                    </footer>
+                    <footer class="cer1">
+                    <h3> YELP WEB SITE</h3> 
+                    <a href="./requirement14.html"> <input type="button" value="VIEW" class="cerview"></a>
+                    </footer>
+                    <footer class="cer1">
+                    <h3>SPOTIFY WEB SITE</h3> 
+                    <a href="./requirement15.html"> <input type="button" value="VIEW" class="cerview"></a>
+                    </footer>
+                </div>
+            </header>  <br>
+            <header class="bottom">
+                <p> PERSONAL PROJECTS <img src="./images.jpg" alt="" class="primg"> </p>
+                    1. Exam Seating Arrangement/ Time Table Generation for Exam <br><br>
+                    2. DBMS Mini Project : Simple Bus Ticket Booking System using PHP <br><br>
+                    3. Final Year Project : Fake News Detection using Machine Learning (Implemented Research Paper)
+            </header>
+        </div>
+    </main>
+</body>
+</html>

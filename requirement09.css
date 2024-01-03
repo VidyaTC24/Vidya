@@ -1,0 +1,315 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+main{
+    background-color: aquamarine;
+    width: 100%;
+    height: 100vh;
+}
+.firstSection{
+    background-color: rgb(104, 59, 4);
+    height:5%;
+    width: 100%;
+    color: white;
+    text-align: center;
+}
+.secondSection{
+    background-color:rgb(228, 175, 106);
+    height:25%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.secondLeft{
+    /* background-color: azure; */
+    width: 45%;
+    height: 100%;
+    text-align: left;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.img{
+    /* background-color:blue;  */
+    width: 150px;
+    height: 150px;
+    /* border-radius: 100%; */
+    /* margin-bottom: 50px; */
+}
+.secondRight{
+    /* background-color: blueviolet; */
+    width: 45%;
+    height: 100%;
+    text-align: right;
+    margin-top: 50px;
+}
+.thirdSection{
+    background-color:beige;
+    height:10%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.thirdLeft{
+    /* background-color: blueviolet; */
+    width: 5%;
+    height: 100%;
+    list-style: none;
+    color:rgb(15, 15, 224) ;
+    margin-left: 20px;
+}
+.thirdMid{
+    text-align: center;
+    color: rgb(86, 167, 5);
+}
+a{
+    /* text-align: right; */
+    color: rgb(12, 235, 235);
+    text-decoration: none;
+
+}
+.thirdRight{
+    /* background-color: azure; */
+    width: 45%;
+    height: 100%;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    color: rgb(12, 48, 12);
+    color: rgb(14, 243, 243);
+    /* margin-left: 100px; */
+}
+
+.fourthSection{
+    background-color:beige;
+    height:50%;
+    width: 100%;
+    display: flex;
+    /* justify-content: space-between; */
+}
+
+.fourthLeft{
+    /* background-color: red; */
+    width: 60%;
+    height: 100%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+.aside1{
+    height: 20%;
+    width: 25%;
+    color: rgb(58, 243, 58);
+    /* text-align: left; */
+    display: flex;
+    align-items: flex-end;
+    margin-top: 250px;
+    margin-left: 25px;
+}
+.aside2{
+    background-color:rgb(241, 185, 111);
+    width: 60%;
+    height: 60%;
+    border:solid 2px crimson;
+    border-radius: 5px;
+    display: flex;
+    /* justify-content: space-between; */
+    margin-left: 25%;
+    /* margin-top: 5%; */
+}
+.imge{
+    height:90% ;
+    width: 90%;
+    /* border-radius: 50%; */
+}
+.input{
+    text-align:right;
+    height: 20%;
+    width: 150%;
+    margin-top: 5%;
+}
+.horizontal{
+    text-decoration: underline;
+    height: 5%;
+    width:100%;
+    margin-top: 25%;
+}
+.aside3{
+    background-color: green;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    color: white;
+    text-align:center;
+    font-size:25px;
+    /* position: relative; */
+    margin-top: 35%;
+    /* margin-left: 75%; */
+}
+
+.fourthRight{
+    /* background-color: aqua; */
+    width: 40%;
+    height: 100%;
+    /* display: flex; */
+    justify-content: space-between;
+    margin-left: 10%;
+    /* align-items: center; */
+}
+.firstRow{
+    /* background-color: darkgreen; */
+    width: 65%;
+    height: 25%;
+    display: flex;
+    justify-content: space-between;
+}
+.secondRow{
+    /* background-color: darkgreen; */
+    width: 65%;
+    height: 25%;
+    display: flex;
+    justify-content: space-between;
+}
+.thirdRow{
+    /* background-color: darkgreen; */
+    width: 65%;
+    height: 25%;
+    display: flex;
+    justify-content: space-between;
+}
+.fourthRow{
+    /* background-color: darkgreen; */
+    width: 65%;
+    height: 25%;
+    display: flex;
+    justify-content: space-between;
+}
+button{
+    background-color: darkgreen;
+    width: 90px;
+    height: 70px;
+    /* margin-left: 80px; */
+    /* margin-top: 30px; */
+    color: white;
+    /* font-size: medium; */
+    border-top-right-radius: 15%;
+    border-top-left-radius: 15%;
+    border-bottom-left-radius: 15%;
+    border-bottom-right-radius: 15%;
+}
+/*
+.one{
+    background-color: darkgreen;
+    width: 30%;
+    height: 20%;
+}
+.two{
+    background-color: darkgreen;
+    width: 30%;
+    height: 20%;
+}
+.three{
+    background-color: darkgreen;
+    width: 30%;
+    height: 20%;
+}
+.four{
+    background-color: darkgreen;
+    width: 30%;+
+    height: 20%;
+}
+.five{
+    background-color: darkgreen;
+    width: 30%;
+    height: 20%;
+}
+.six{
+    background-color: darkgreen;
+    width: 30%;
+    height: 20%;
+}
+.seven{
+    background-color: darkgreen;
+    width: 30%;
+    height: 20%;
+}
+.eight{
+    background-color: darkgreen;
+    width: 30%;
+    height: 20%;
+}
+.nine{
+    background-color: darkgreen;
+    width: 30%;
+    height: 20%;
+}
+.ten{
+    background-color: darkgreen;
+    width: 30%;
+    height: 20%;
+}
+.eleven{
+    background-color: darkgreen;
+    width: 30%;
+    height: 20%;
+}
+.twovel{
+    background-color: darkgreen;
+    width: 30%;
+    height: 20%;
+}*/
+
+.fifthSection{
+    background-color:rgb(240, 240, 206);
+    outline-color: red;
+    height:5%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+.fifthLeft{
+    /* background-color: aquamarine; */
+    
+    width: 45%;
+    height: 100%;
+    text-align: left;
+    color: rgb(12, 1
+    87, 12);
+    margin-left: 10px;
+    /* margin-top: 20px; */
+}
+.fifthRight{
+    /* background-color: cornflowerblue; */
+    width: 45%;
+    height: 100%;
+
+}
+.sixSection{
+    background-color: rgb(104, 59, 4);
+    height:5%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+.sixLeft{
+    /* background-color: darkblue; */
+    width: 45%;
+    height: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: azure;
+}
+.sixRight{
+    /* background-color: darksalmon; */
+    width: 45%;
+    height: 100%;
+    list-style: none;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    color: azure;
+}
